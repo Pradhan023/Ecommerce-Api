@@ -1,23 +1,24 @@
 const { default: mongoose } = require("mongoose")
         const mongo= require("mongoose")
         const userSchema =mongo.Schema({
-            id:"number",
-            img:"string",
-            heading:"string",
-            price:"number",
-            category:"string",
-            subcategory:"string"
+            id:Number,
+            img:String,
+            heading:String,
+            price:Number,
+            category:String,
+            subcategory:String
         })
 
         const addcartSchema =mongo.Schema({
-            id:"Number",
-            img:"string",
-            heading:"string",
-            price:"number",
-            category:"string",
-            subcategory:"string",
-            quantity:"number"
+            id:Number,
+            img:String,
+            heading:String,
+            price:Number,
+            category:String,
+            subcategory:String,
+            quantity:Number
         })
+
 
 
         const storeSchema=mongoose.model("allData",userSchema);
