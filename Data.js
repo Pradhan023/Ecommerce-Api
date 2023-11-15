@@ -6,6 +6,7 @@ const StoreData = [
         price : 57999,
         category : "Mobile",
         subcategory:"Iphone"
+,        quantity:1
     },
     {
         id : 1,
@@ -13,7 +14,8 @@ const StoreData = [
         heading : "APPLE IPhone 15 (Blue, 128 GB)",
         price : 79900,
         category : "Mobile",
-        subcategory:"Iphone"
+        subcategory:"Iphone",
+        quantity:1
     }
     ,{
         id : 2,
@@ -22,6 +24,7 @@ const StoreData = [
         price : 89900,
         category : "Mobile",
         subcategory:"Iphone"
+,        quantity:1
     },
     {
         id : 3,
@@ -30,6 +33,7 @@ const StoreData = [
         price : 159900,
         category : "Mobile",
         subcategory:"Iphone"
+,        quantity:1
     },
     {
         id : 4,
@@ -38,6 +42,7 @@ const StoreData = [
         price : 127999,
         category : "Mobile",
         subcategory:"Iphone"
+,        quantity:1
     },
     {
         id : 5,
@@ -45,7 +50,8 @@ const StoreData = [
         heading : "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
         price : 17139,
         category : "Mobile",
-        subcategory:"Oneplus"
+        subcategory:"Oneplus",
+        quantity:1
     },
     {
         id : 6,
@@ -53,7 +59,8 @@ const StoreData = [
         heading : "OnePlus 10R (Forest Green, 128 GB)  (8 GB RAM)",
         price : 30100,
         category : "Mobile",
-        subcategory:"Oneplus"
+        subcategory:"Oneplus",
+        quantity:1
     },
     {
         id : 7,
@@ -61,7 +68,8 @@ const StoreData = [
         heading : "OnePlus 10 Pro 5G (Emerald Forest, 128 GB)  (8 GB RAM)",
         price : 51998,
         category : "Mobile",
-        subcategory:"Oneplus"
+        subcategory:"Oneplus",
+        quantity:1
     },
     {
         id : 8,
@@ -69,7 +77,8 @@ const StoreData = [
         heading : "OnePlus Nord 3 5G (Misty Green, 128 GB)  (8 GB RAM)",
         price : 30478,
         category : "Mobile",
-        subcategory:"Oneplus"
+        subcategory:"Oneplus",
+        quantity:1
     },
     {
         id : 9,
@@ -77,7 +86,8 @@ const StoreData = [
         heading : "OnePlus 11 5G (Titan Black, 128 GB)  (8 GB RAM)",
         price : 52945,
         category : "Mobile",
-        subcategory:"Oneplus"
+        subcategory:"Oneplus",
+        quantity:1
     },
     {
         id : 10,
@@ -85,7 +95,8 @@ const StoreData = [
         heading : "SAMSUNG Galaxy Z Fold5 (Icy Blue, 256 GB)  (12 GB RAM)",
         price : 154999,
         category : "Mobile",
-        subcategory:"Samsung"
+        subcategory:"Samsung",
+        quantity:1
     },
     {
         id : 11,
@@ -93,7 +104,8 @@ const StoreData = [
         heading : "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)#JustHere",
         price : 134999,
         category : "Mobile",
-        subcategory:"Samsung"
+        subcategory:"Samsung",
+        quantity:1
     },
     {
         id : 12,
@@ -101,7 +113,8 @@ const StoreData = [
         heading : "SAMSUNG Galaxy F14 5G (GOAT Green, 128 GB)  (6 GB RAM)#JustHere",
         price : 12490,
         category : "Mobile",
-        subcategory:"Samsung"
+        subcategory:"Samsung",
+        quantity:1
     },
     {
         id : 13,
@@ -109,7 +122,8 @@ const StoreData = [
         heading : "SAMSUNG Galaxy M14 5G (Icy Silver, 128 GB)  (6 GB RAM)",
         price : 13000,
         category : "Mobile",
-        subcategory:"Samsung"
+        subcategory:"Samsung",
+        quantity:1
     },
     {
         id : 14,
@@ -117,7 +131,8 @@ const StoreData = [
         heading : "SAMSUNG Galaxy A23 5G (Light Blue, 128 GB)  (6 GB RAM)#JustHere",
         price : 20999,
         category : "Mobile",
-        subcategory:"Samsung"
+        subcategory:"Samsung",
+        quantity:1
     },
     {
         id : 15,
@@ -125,7 +140,8 @@ const StoreData = [
         heading : "MOTOROLA g54 5G (Pearl Blue, 128 GB)  (8 GB RAM)",
         price : 13999,
         category : "Mobile",
-        subcategory:"Motorola"
+        subcategory:"Motorola",
+        quantity:1
     },
     {
         id : 16,
@@ -133,7 +149,8 @@ const StoreData = [
         heading : "MOTOROLA Edge 40 Neo (Black Beauty, 256 GB)  (12 GB RAM)",
         price : 24999,
         category : "Mobile",
-        subcategory:"Motorola"
+        subcategory:"Motorola",
+        quantity:1
     },
     {
         id : 17,
@@ -141,7 +158,8 @@ const StoreData = [
         heading : "MOTOROLA g54 5G (Mint Green, 256 GB)  (12 GB RAM)",
         price : 15999,
         category : "Mobile",
-        subcategory:"Motorola"
+        subcategory:"Motorola",
+        quantity:1
     },
     {
         id : 18,
@@ -149,7 +167,8 @@ const StoreData = [
         heading : "MOTOROLA Edge 40 (Nebula Green, 256 GB)  (8 GB RAM)",
         price : 26999,
         category : "Mobile",
-        subcategory:"Motorola"
+        subcategory:"Motorola",
+        quantity:1
     },
     {
         id : 19,
@@ -157,7 +176,8 @@ const StoreData = [
         heading : "MOTOROLA g14 (Pale Lilac, 128 GB)  (4 GB RAM)",
         price : 8499,
         category : "Mobile",
-        subcategory:"Motorola"
+        subcategory:"Motorola",
+        quantity:1
     },
     {
         id : 20,
@@ -165,7 +185,8 @@ const StoreData = [
         heading : "OPPO Reno10 5G (Ice Blue, 256 GB)  (8 GB RAM)#JustHere",
         price : 32999,
         category : "Mobile",
-        subcategory:"Oppo"
+        subcategory:"Oppo",
+        quantity:1
     },
     {
         id : 21,
@@ -173,7 +194,8 @@ const StoreData = [
         heading : "OPPO A78 5G (Glowing Black, 128 GB)  (8 GB RAM)#JustHere",
         price : 18999,
         category : "Mobile",
-        subcategory:"Oppo"
+        subcategory:"Oppo",
+        quantity:1
     },
     {
         id : 22,
@@ -181,7 +203,8 @@ const StoreData = [
         heading : "OPPO F21 Pro (Cosmic Black, 128 GB)  (8 GB RAM)",
         price : 19899,
         category : "Mobile",
-        subcategory:"Oppo"
+        subcategory:"Oppo",
+        quantity:1
     },
     {
         id : 23,
@@ -189,7 +212,8 @@ const StoreData = [
         heading : "OPPO A79 5G (Glowing Green, 128 GB)  (8 GB RAM)",
         price : 19999,
         category : "Mobile",
-        subcategory:"Oppo"
+        subcategory:"Oppo",
+        quantity:1
     },
     {
         id : 24,
@@ -197,7 +221,8 @@ const StoreData = [
         heading : "OPPO F21s Pro (Dawnlight Gold, 128 GB)  (8 GB RAM)",
         price : 21999,
         category : "Mobile",
-        subcategory:"Oppo"
+        subcategory:"Oppo",
+        quantity:1
     },
     {
         id : 25,
@@ -205,7 +230,8 @@ const StoreData = [
         heading : "Expro UNIVERSAL (BLACK) Mobile Holder",
         price : 169,
         category : "Electronics",
-        subcategory:"Mobile Accessories"
+        subcategory:"Mobile Accessories",
+        quantity:1
     },
     {
         id : 26,
@@ -213,7 +239,8 @@ const StoreData = [
         heading : "M/S DSNS Wall Charger Hook Mobile Phone Holder",
         price : 178,
         category : "Electronics",
-        subcategory:"Mobile Accessories"
+        subcategory:"Mobile Accessories",
+        quantity:1
     },
     {
         id : 27,
@@ -221,7 +248,8 @@ const StoreData = [
         heading : "Taskin Plastic Desktop Adjustable & Foldable Phone Stand & Mobile Holder",
         price : 288,
         category : "Electronics",
-        subcategory:"Mobile Accessories"
+        subcategory:"Mobile Accessories",
+        quantity:1
     },
     {
         id : 28,
@@ -229,7 +257,8 @@ const StoreData = [
         heading : "TheSmartHouse Spiral Charger for all Type Wires Data -Pack of 6",
         price : 94,
         category : "Electronics",
-        subcategory:"Mobile Accessories"
+        subcategory:"Mobile Accessories",
+        quantity:1
     },
     {
         id : 29,
@@ -237,7 +266,8 @@ const StoreData = [
         heading : "Micvir Charger Cover for IPhone 18W-20W Charger, 3D Cartoon Sponge-bob",
         price : 339,
         category : "Electronics",
-        subcategory:"Mobile Accessories"
+        subcategory:"Mobile Accessories",
+        quantity:1
     },
     {
         id : 30,
@@ -245,7 +275,8 @@ const StoreData = [
         heading : "APPLE Watch Series 5 GPS + Cellular  (White Strap, Regular)",
         price : 52900,
         category : "Electronics",
-        subcategory:"Smart wearable Tech"
+        subcategory:"Smart wearable Tech",
+        quantity:1
     },
     {
         id : 31,
@@ -253,7 +284,8 @@ const StoreData = [
         heading : `Pebble Cosmos Ultra 1.91" 600 nits BT-Calling High-Res Curved Display, Ultra-Thin`,
         price : 1599,
         category : "Electronics",
-        subcategory:"Smart wearable Tech"
+        subcategory:"Smart wearable Tech",
+        quantity:1
     },
     {
         id : 32,
@@ -261,7 +293,8 @@ const StoreData = [
         heading : `Noise Qube 2 1.96" Display with Bluetooth Calling, Built-in Games, Women's Edition`,
         price : 1299,
         category : "Electronics",
-        subcategory:"Smart wearable Tech"
+        subcategory:"Smart wearable Tech",
+        quantity:1
     },
     {
         id : 33,
@@ -269,7 +302,8 @@ const StoreData = [
         heading : "Noise Icon 2 Elite Edition 1.8'' Display with Metallic Body and Bluetooth Calling",
         price : 1799,
         category : "Electronics",
-        subcategory:"Smart wearable Tech"
+        subcategory:"Smart wearable Tech",
+        quantity:1
     },
     {
         id : 34,
@@ -277,7 +311,8 @@ const StoreData = [
         heading : "Fire-Boltt Supernova 1.78 AMOLED 368*448px High Resolution",
         price : 1799,
         category : "Electronics",
-        subcategory:"Smart wearable Tech"
+        subcategory:"Smart wearable Tech",
+        quantity:1
     },
     {
         id : 35,
@@ -285,7 +320,8 @@ const StoreData = [
         heading : "APPLE 2022 MacBook AIR M2 - (8 GB/256 GB SSD/Mac OS Monterey)",
         price : 86990,
         category : "Electronics",
-        subcategory:"Laptops"
+        subcategory:"Laptops",
+        quantity:1
     },
     {
         id : 36,
@@ -293,7 +329,8 @@ const StoreData = [
         heading : "Infinix X2 Slim Intel Core i5 11th Gen 1155G7 ",
         price : 29990,
         category : "Electronics",
-        subcategory:"Laptops"
+        subcategory:"Laptops",
+        quantity:1
     },
     {
         id : 37,
@@ -301,7 +338,8 @@ const StoreData = [
         heading : "HP 2023 Athlon Dual Core 3050U - (8 GB/512 GB SSD/Windows 11 Home)",
         price : 29990,
         category : "Electronics",
-        subcategory:"Laptops"
+        subcategory:"Laptops",
+        quantity:1
     },
     {
         id : 38,
@@ -309,7 +347,8 @@ const StoreData = [
         heading : "ASUS Vivobook 14 Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) ",
         price : 27990,
         category : "Electronics",
-        subcategory:"Laptops"
+        subcategory:"Laptops",
+        quantity:1
     },
     {
         id : 39,
@@ -317,7 +356,8 @@ const StoreData = [
         heading : "ASUS ROG Strix G15 Ryzen 7 Octa Core 6800H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) ",
         price : 83990,
         category : "Electronics",
-        subcategory:"Laptops"
+        subcategory:"Laptops",
+        quantity:1
     },
     {
         id : 40,
@@ -325,7 +365,8 @@ const StoreData = [
         heading : "SAMSUNG Crystal Vision 4K iSmart with Voice Assistant 108 cm (43 inch) Ultra HD",
         price : 31990,
         category : "Electronics",
-        subcategory:"Tv & Appliances"
+        subcategory:"Tv & Appliances",
+        quantity:1
     },
     {
         id : 41,
@@ -333,7 +374,8 @@ const StoreData = [
         heading : "LUMINOUS Powersine 1100 Pure Sine Wave Inverter,SC18060 150 Ah Battery",
         price : 21700,
         category : "Electronics",
-        subcategory:"Tv & Appliances"
+        subcategory:"Tv & Appliances",
+        quantity:1
     },
     {
         id : 42,
@@ -341,7 +383,8 @@ const StoreData = [
         heading : "OnePlus U1S 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV with Far field and Dolby Audio  (55UC1A00)",
         price : 34999,
         category : "Electronics",
-        subcategory:"Tv & Appliances"
+        subcategory:"Tv & Appliances",
+        quantity:1
     },
     {
         id : 43,
@@ -349,7 +392,8 @@ const StoreData = [
         heading : "MOTOROLA EnvisionX 218 cm (86 inch) Ultra HD (4K) LED Smart Android TV with Inbuilt Box Speakers  (86UHDADMBS5E)",
         price : 119999,
         category : "Electronics",
-        subcategory:"Tv & Appliances"
+        subcategory:"Tv & Appliances",
+        quantity:1
     },
     {
         id : 44,
@@ -357,7 +401,8 @@ const StoreData = [
         heading : "Kinsco Aqua Punch 15 L RO + UV + UF + Copper + TDS Control Water Purifier with Prefilter  (Black)",
         price : 3999,
         category : "Electronics",
-        subcategory:"Tv & Appliances"
+        subcategory:"Tv & Appliances",
+        quantity:1
     },
     {
         id : 45,
@@ -366,6 +411,7 @@ const StoreData = [
         price : 300,
         category : "Fashion",
         subcategory:"Beauty"
+,        quantity:1
     },
     {
         id : 46,
@@ -374,6 +420,7 @@ const StoreData = [
         price : 262,
         category : "Fashion",
         subcategory:"Beauty"
+,        quantity:1
     },
     {
         id : 47,
@@ -382,6 +429,7 @@ const StoreData = [
         price : 258,
         category : "Fashion",
         subcategory:"Beauty"
+,        quantity:1
     },
     {
         id : 48,
@@ -390,6 +438,7 @@ const StoreData = [
         price : 199,
         category : "Fashion",
         subcategory:"Beauty"
+,        quantity:1
     },
     {
         id : 49,
@@ -398,6 +447,7 @@ const StoreData = [
         price : 199,
         category : "Fashion",
         subcategory:"Beauty"
+,        quantity:1
     },
     {
         id : 50,
@@ -405,7 +455,8 @@ const StoreData = [
         heading : "DENVER Bodywash With Activated Charcoal for Antipollution & Detox  (325 ml)",
         price : 158,
         category : "Fashion",
-        subcategory:"Men"
+        subcategory:"Men",
+        quantity:1
     },
     {
         id : 51,
@@ -413,7 +464,8 @@ const StoreData = [
         heading : "Men Solid Denim Jacket",
         price : 2089,
         category : "Fashion",
-        subcategory:"Men"
+        subcategory:"Men",
+        quantity:1
     },
     {
         id : 52,
@@ -421,7 +473,8 @@ const StoreData = [
         heading : "JAGUAR Classic Gold Eau de Toilette - 100 ml  (For Men)",
         price : 2255,
         category : "Fashion",
-        subcategory:"Men"
+        subcategory:"Men",
+        quantity:1
     },
     {
         id : 53,
@@ -429,7 +482,8 @@ const StoreData = [
         heading : "USTRAA Total De-Tan Kit -De-tan Face Cream, 50g - De-Tan Face Scrub with Walnut",
         price : 366,
         category : "Fashion",
-        subcategory:"Men"
+        subcategory:"Men",
+        quantity:1
     },
     {
         id : 54,
@@ -437,7 +491,8 @@ const StoreData = [
         heading : "USTRAA De tan Face Cream For Men-50g & Vitamin C Face Serum -30ml  (2 Items in the set)",
         price : 686,
         category : "Fashion",
-        subcategory:"Men"
+        subcategory:"Men",
+        quantity:1
     },
     {
         id : 55,
@@ -445,7 +500,8 @@ const StoreData = [
         heading : "Women Maxi Dark Blue, White Dress",
         price : 429,
         category : "Fashion",
-        subcategory:"Female"
+        subcategory:"Female",
+        quantity:1
     },
     {
         id : 56,
@@ -453,7 +509,8 @@ const StoreData = [
         heading : "Women Empire Waist Black, White, Pink Dress",
         price : 344,
         category : "Fashion",
-        subcategory:"Female"
+        subcategory:"Female",
+       quantity:1
     },
     {
         id : 57,
@@ -461,7 +518,8 @@ const StoreData = [
         heading : "Women Multicolor Handbag - Extra Spacious",
         price : 1599,
         category : "Fashion",
-        subcategory:"Female"
+        subcategory:"Female",
+        quantity:1
     },
     {
         id : 58,
@@ -469,7 +527,8 @@ const StoreData = [
         heading : "Women Black Heels Sandal",
         price : 620,
         category : "Fashion",
-        subcategory:"Female"
+        subcategory:"Female",
+        quantity:1
     },
     {
         id : 59,
@@ -477,7 +536,8 @@ const StoreData = [
         heading : "Women Gold Heels Sandal",
         price : 959,
         category : "Fashion",
-        subcategory:"Female"
+        subcategory:"Female",
+        quantity:1
     },
     {
         id : 60,
@@ -485,7 +545,8 @@ const StoreData = [
         heading : "BAJAJ New Shakti 3HD HA Handi with IB PCX 63 HD 3 L Induction Bottom Pressure Cooker  (Hard Anodized)",
         price : 1249,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware"
+        subcategory:"Kitchen,Cookware & Serveware",
+        quantity:1
     },
     {
         id : 61,
@@ -493,7 +554,8 @@ const StoreData = [
         heading : "Prestige Omega Festival Pack Induction Bottom Non-Stick Coated Cookware",
         price : 1299,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware"
+        subcategory:"Kitchen,Cookware & Serveware",
+        quantity:1
     },
     {
         id : 62,
@@ -501,7 +563,8 @@ const StoreData = [
         heading : "cello Prima + Non-Stick Aluminium Induction Bottom Non-Stick Coated Cookware",
         price : 1369,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware"
+        subcategory:"Kitchen,Cookware & Serveware",
+        quantity:1
     },
     {
         id : 63,
@@ -509,7 +572,8 @@ const StoreData = [
         heading : "PARAM newland Copper Bottom Handi Pot 5 Piece Set",
         price : 450,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware"
+        subcategory:"Kitchen,Cookware & Serveware",
+        quantity:1
     },
     {
         id : 64,
@@ -517,7 +581,8 @@ const StoreData = [
         heading : "Hawkins Stainless Steel (SSTV24) Tawa 24 cm diameter  (Triply, Induction Bottom)",
         price : 1133,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware"
+        subcategory:"Kitchen,Cookware & Serveware",
+        quantity:1
     },
     {
         id : 65,
@@ -525,7 +590,8 @@ const StoreData = [
         heading : "Snowberry Plastic Grocery Container - 1200 ml, 650 ml, 350 ml, 250 ml",
         price : 578,
         category : "Furniture",
-        subcategory:"Kitchen Storeage"
+        subcategory:"Kitchen Storeage",
+        quantity:1
     },
     {
         id : 66,
@@ -533,7 +599,8 @@ const StoreData = [
         heading : "PAYTON Spice Set Plastic ",
         price : 295,
         category : "Furniture",
-        subcategory:"Kitchen Storeage"
+        subcategory:"Kitchen Storeage",
+        quantity:1
     },
     {
         id : 67,
@@ -541,7 +608,8 @@ const StoreData = [
         heading : "STARKENDY Plastic 6pcs Fridge Storage Basket Box Freezer Containers Food Dry",
         price : 317,
         category : "Furniture",
-        subcategory:"Kitchen Storeage"
+        subcategory:"Kitchen Storeage",
+        quantity:1
     },
     {
         id : 68,
@@ -549,7 +617,8 @@ const StoreData = [
         heading : "SmartBuy Plastic Grocery Container - 2400 ml ",
         price : 249,
         category : "Furniture",
-        subcategory:"Kitchen Storeage"
+        subcategory:"Kitchen Storeage",
+        quantity:1
     },
     {
         id : 69,
@@ -557,7 +626,8 @@ const StoreData = [
         heading : "NAALSA Steel Utility Container ",
         price : 395,
         category : "Furniture",
-        subcategory:"Kitchen Storeage"
+        subcategory:"Kitchen Storeage",
+        quantity:1
     },
     {
         id : 70,
@@ -565,7 +635,8 @@ const StoreData = [
         heading : "GALA E-Popular Spin Mop",
         price : 898,
         category : "Furniture",
-        subcategory:"Cleaning Supplies"
+        subcategory:"Cleaning Supplies",
+        quantity:1
     },
     {
         id : 71,
@@ -573,7 +644,8 @@ const StoreData = [
         heading : "AGARO Ace 1600W Wet & Dry Vacuum Cleaner with Reusable Dust Bag",
         price : 5399,
         category : "Furniture",
-        subcategory:"Cleaning Supplies"
+        subcategory:"Cleaning Supplies",
+        quantity:1
     },
     {
         id : 72,
@@ -581,7 +653,8 @@ const StoreData = [
         heading : "ILIFE T10s Self Emptying Robot Vacuum And Mop Robotic Floor Cleaner with 2 in 1",
         price : 31890,
         category : "Furniture",
-        subcategory:"Cleaning Supplies"
+        subcategory:"Cleaning Supplies",
+        quantity:1
     },
     {
         id : 73,
@@ -589,7 +662,8 @@ const StoreData = [
         heading : "Riyaraj Aluminium Microfiber Floor Cleaning Spray Mop with Removable Washable",
         price : 676,
         category : "Furniture",
-        subcategory:"Cleaning Supplies"
+        subcategory:"Cleaning Supplies",
+        quantity:1
     },
     {
         id : 74,
@@ -597,7 +671,8 @@ const StoreData = [
         heading : "Harpic Disinfectant Bathroom Cleaner Liquid Lemon ",
         price : 322,
         category : "Furniture",
-        subcategory:"Cleaning Supplies"
+        subcategory:"Cleaning Supplies",
+        quantity:1
     },
     {
         id : 75,
@@ -605,7 +680,8 @@ const StoreData = [
         heading : "CLOTHOLOGY 144 TC Cotton Double Printed Flat Bedsheet",
         price : 299,
         category : "Furniture",
-        subcategory:"Furnishing"
+        subcategory:"Furnishing",
+        quantity:1
     },
     {
         id : 76,
@@ -613,7 +689,8 @@ const StoreData = [
         heading : "Home Sizzler 153 cm (5 ft) Polyester Room Darkening Window Curtain",
         price : 299,
         category : "Furniture",
-        subcategory:"Furnishing"
+        subcategory:"Furnishing",
+        quantity:1
     },
     {
         id : 77,
@@ -621,7 +698,8 @@ const StoreData = [
         heading : "Crosmo Solid 4 Seater Table Cover ",
         price : 199,
         category : "Furniture",
-        subcategory:"Furnishing"
+        subcategory:"Furnishing",
+        quantity:1
     },
     {
         id : 78,
@@ -629,7 +707,8 @@ const StoreData = [
         heading : "CARLTON LONDON Olivia Fabric 3 + 2 Sofa Set",
         price : 31350,
         category : "Furniture",
-        subcategory:"Furnishing"
+        subcategory:"Furnishing",
+        quantity:1
     },
     {
         id : 79,
@@ -637,7 +716,8 @@ const StoreData = [
         heading : "SOFTSPUN Microfiber 380 GSM Bath Towel",
         price : 549,
         category : "Furniture",
-        subcategory:"Furnishing"
+        subcategory:"Furnishing",
+        quantity:1
     },
     {
         id : 80,
@@ -645,7 +725,8 @@ const StoreData = [
         heading : "Chhariya Crafts Metal Krishna",
         price : 197,
         category : "Furniture",
-        subcategory:"Home Decor"
+        subcategory:"Home Decor",
+        quantity:1
     },
     {
         id : 81,
@@ -653,7 +734,8 @@ const StoreData = [
         heading : "NAVYAKSH Lord Adiyogi Shiva Statue ",
         price : 198,
         category : "Furniture",
-        subcategory:"Home Decor"
+        subcategory:"Home Decor",
+        quantity:1
     },
     {
         id : 82,
@@ -661,7 +743,8 @@ const StoreData = [
         heading : "ONRR Collections Feng-Shui Owl on Lucky Coins for Good Health, Wealth ",
         price : 219,
         category : "Furniture",
-        subcategory:"Home Decor"
+        subcategory:"Home Decor",
+        quantity:1
     },
     {
         id : 83,
@@ -669,7 +752,8 @@ const StoreData = [
         heading : "SmartBuy 70 cm Wall Stickers Shivering Boho Feather Dream Catcher",
         price : 99,
         category : "Furniture",
-        subcategory:"Home Decor"
+        subcategory:"Home Decor",
+        quantity:1
     },
     {
         id : 84,
@@ -677,7 +761,8 @@ const StoreData = [
         heading : "Mindfied 20 inch Bonsai Lighted Tree with 36 Pearls LED, Decorations Table Tree",
         price : 792,
         category : "Furniture",
-        subcategory:"Home Decor"
+        subcategory:"Home Decor",
+        quantity:1
     }
 ]
 

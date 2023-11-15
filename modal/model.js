@@ -6,15 +6,6 @@ const { default: mongoose } = require("mongoose")
             heading:String,
             price:Number,
             category:String,
-            subcategory:String
-        })
-
-        const addcartSchema =mongo.Schema({
-            id:Number,
-            img:String,
-            heading:String,
-            price:Number,
-            category:String,
             subcategory:String,
             quantity:Number
         })
