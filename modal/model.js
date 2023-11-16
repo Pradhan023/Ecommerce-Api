@@ -10,8 +10,12 @@ const { default: mongoose } = require("mongoose")
             quantity:Number
         })
 
-
+        const registerSchema =mongo.Schema({
+            username:String,
+            email:String,
+            password:String
+        })
 
         const storeSchema=mongoose.model("allData",userSchema);
-        const cartSchema = mongoose.model("AddToCart",addcartSchema);
-        module.exports={storeSchema,cartSchema}
+        const storeAuthentication = mongoose.model("regsData",registerSchema)
+        module.exports={storeSchema,storeAuthentication}

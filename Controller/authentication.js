@@ -1,17 +1,16 @@
+const {storeAuthentication} = require("../modal/model")
+
 const arr = []
 
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const secretKey = "Anish123"
 
-const register = (req,res)=>{
+const register = async (req,res)=>{
     const details = req.body 
     const salt = 10
-    const regData = arr.find((item)=>{
-        if(details.email === item.email){
-            return item
-        }
-    })
+    const regData = await storeAuthentication.findOne({email:details.email})
+
     if(regData){
         return res.send({msg:"User is already registered"})
     }
@@ -21,17 +20,23 @@ const register = (req,res)=>{
         email:details.email,
         password:hashPassword
     }
-    arr.push(Obj)
+    await storeAuthentication.create(Obj) //creating db for registered user
+
+    const getRegsDb = await storeAuthentication.find({})
+    console.log(getRegsDb);
+    arr.push(getRegsDb)
+
     const token = jwt.sign({userEmail:details.email},secretKey)
-    console.log(Obj);
-    console.log(details.email , " " , hashPassword);
-    return res.send({msg:"User is successfully Registered",arr,token:token})
+    // console.log(Obj);
+    // console.log(details.email , " " , hashPassword);
+    return res.send({msg:"User is successfully Registered",token:token})
 }
 
-const login = (req,res)=>{
+const login =async (req,res)=>{
     const logData = req.body
-
-    const LogDetails = arr.find(item=>{
+    const logDb = await storeAuthentication.find({})
+    
+    const LogDetails = logDb.find(item=>{
         if(logData.email === item.email)
         {
             return item
@@ -42,7 +47,8 @@ const login = (req,res)=>{
         const encrypt = bcrypt.compareSync(logData.password,LogDetails.password)
         if(encrypt){
             const token = jwt.sign({userEmail:logData.email},secretKey,{expiresIn:"7d"})
-            return res.send({msg:"User is successfully Login",token:token})
+            console.log({msg:"User is successfully Login",username:logDb,token:token});
+            return res.send({msg:"User is successfully Login",username:logDb.username,token:token})
         }
         else{
             return res.send({msg:"Check the Password"})

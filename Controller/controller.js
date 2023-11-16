@@ -4,7 +4,7 @@ const StoreData = require("../Data")
 //     return res.send(StoreData)
 // }
 
-const {storeSchema, cartSchema}= require("../modal/model")
+const {storeSchema}= require("../modal/model")
             const interData=async(req,res)=>{
                 const first =await storeSchema.create(StoreData)
                 res.send(first)
