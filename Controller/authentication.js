@@ -47,7 +47,7 @@ const login =async (req,res)=>{
         if(encrypt){
             const token = jwt.sign({userEmail:logData.email},secretKey,{expiresIn:"7d"})
             console.log({msg:"User is successfully Login",username:LogDetails.username,token:token});
-            return res.send({msg:"User is successfully Login",username:logDb.username,token:token})
+            return res.send({msg:"User is successfully Login",username:LogDetails.username,token:token})
         }
         else{
             return res.send({msg:"Check the Password"})
