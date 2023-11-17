@@ -26,10 +26,9 @@ const register = async (req,res)=>{
     console.log(getRegsDb);
     arr.push(getRegsDb)
 
-    const token = jwt.sign({userEmail:details.email},secretKey)
-    // console.log(Obj);
-    // console.log(details.email , " " , hashPassword);
-    return res.send({msg:"User is successfully Registered",token:token})
+    // const token = jwt.sign({userEmail:details.email},secretKey)
+
+    return res.send({msg:"User is successfully Registered"})
 }
 
 const login =async (req,res)=>{
@@ -47,7 +46,7 @@ const login =async (req,res)=>{
         const encrypt = bcrypt.compareSync(logData.password,LogDetails.password)
         if(encrypt){
             const token = jwt.sign({userEmail:logData.email},secretKey,{expiresIn:"7d"})
-            console.log({msg:"User is successfully Login",username:logDb,token:token});
+            console.log({msg:"User is successfully Login",username:LogDetails.username,token:token});
             return res.send({msg:"User is successfully Login",username:logDb.username,token:token})
         }
         else{
