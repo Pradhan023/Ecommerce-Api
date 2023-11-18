@@ -1,4 +1,4 @@
-const {interData,takeData} = require("../Controller/controller")
+const {interData,takeData,searchData} = require("../Controller/controller")
 const {register,login,auth} = require("../Controller/authentication")
 const route = require("express").Router()
 
@@ -13,6 +13,8 @@ route.post("/login",login)
 route.get("/",auth,(req,res)=>{
     res.send("Welcome To AP Store")
 })
+
+route.get("/search",searchData)
 
 
 module.exports = route

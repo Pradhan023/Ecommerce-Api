@@ -1,6 +1,4 @@
-const {storeAuthentication} = require("../modal/model")
-
-const arr = []
+const {AuthenticationCollection} = require("../modal/model")
 
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
@@ -9,7 +7,7 @@ const secretKey = "Anish123"
 const register = async (req,res)=>{
     const details = req.body 
     const salt = 10
-    const regData = await storeAuthentication.findOne({email:details.email})
+    const regData = await AuthenticationCollection.findOne({email:details.email})
 
     if(regData){
         return res.send({msg:"User is already registered"})
@@ -20,20 +18,14 @@ const register = async (req,res)=>{
         email:details.email,
         password:hashPassword
     }
-    await storeAuthentication.create(Obj) //creating db for registered user
-
-    const getRegsDb = await storeAuthentication.find({})
-    console.log(getRegsDb);
-    arr.push(getRegsDb)
-
-    // const token = jwt.sign({userEmail:details.email},secretKey)
+    await AuthenticationCollection.create(Obj) //creating db for registered user
 
     return res.send({msg:"User is successfully Registered"})
 }
 
 const login =async (req,res)=>{
     const logData = req.body
-    const logDb = await storeAuthentication.find({})
+    const logDb = await AuthenticationCollection.find({})
     
     const LogDetails = logDb.find(item=>{
         if(logData.email === item.email)

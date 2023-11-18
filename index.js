@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express")
 const app = express()
 
@@ -18,9 +20,9 @@ app.use(express.json())
 app.use("/api",route)
 
 
-app.listen(Port,async ()=>{
+app.listen(Port, async ()=>{
     try{
-        await connection()
+        await connection(process.env.MongoDb_URl)
         console.log("Server is live on Port 4000");
     }
     catch(err){
