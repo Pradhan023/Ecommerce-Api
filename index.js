@@ -8,7 +8,6 @@ const route = require("./RouteComp/routeComp")
 
 app.use(cors({
     origin:"*",
-    header:('Access-Control-Allow-Origin: *')
 }))
 
 app.use(express.json())
