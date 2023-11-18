@@ -7,8 +7,7 @@ const connection = require("./config/config")
 const route = require("./RouteComp/routeComp")
 
 app.use(cors({
-    origin:"*",
-    credentials:true,
+    origin:"*"
 }))
 
 app.use(express.json())
