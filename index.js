@@ -2,16 +2,16 @@ require("dotenv").config();
 
 const express = require("express")
 const app = express()
+const cors = require('cors')
 
 const Port  = 4000
 
-const connection = require("./config/config")
-
-const Cors = require("cors")
-
-app.use(Cors({
+app.use(cors({
     origin:"*"
 }))
+
+const connection = require("./config/config")
+
 
 const route = require("./RouteComp/routeComp")
 
