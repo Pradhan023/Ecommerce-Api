@@ -3,21 +3,19 @@ require("dotenv").config();
 const express = require("express")
 const app = express()
 const cors = require('cors')
-
-const Port  = 4000
+const connection = require("./config/config")
+const route = require("./RouteComp/routeComp")
 
 app.use(cors({
-    origin:"*"
+    origin:"*",
+    credentials:true,
 }))
-
-const connection = require("./config/config")
-
-
-const route = require("./RouteComp/routeComp")
 
 app.use(express.json())
 
 app.use("/api",route)
+
+const Port = 4000;
 
 
 app.listen(Port, async ()=>{
