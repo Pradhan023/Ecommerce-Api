@@ -6,7 +6,9 @@ const cors = require('cors')
 const connection = require("./config/config")
 const route = require("./RouteComp/routeComp")
 
-app.use(cors())
+app.use(cors({
+    origin:"*",
+}))
 
 app.use(express.json())
 
@@ -15,7 +17,7 @@ app.use("/api",route)
 const Port = 4000;
 
 
-app.listen(Port, async ()=>{
+app.listen(Port, async()=>{
     try{
         await connection(process.env.MongoDb_URl)
         console.log("Server is live on Port 4000");

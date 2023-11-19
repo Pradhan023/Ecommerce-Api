@@ -1,9 +1,5 @@
 const StoreData = require("../Data")
 
-// const dataController = (req,res)=>{
-//     return res.send(StoreData)
-// }
-
 const {productCollection}= require("../modal/model")
             const interData=async(req,res)=>{
                 const first =await productCollection.create(StoreData)
