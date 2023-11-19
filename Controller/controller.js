@@ -29,6 +29,10 @@ const {productCollection}= require("../modal/model")
                     queryObj.name = {$regex : name , $options : "i"};
                 }
 
+                if(!category && !name && !subcategory){
+                    return res.send({msg:"Invalid entery"})
+                }
+
 
                 const searchedData = await productCollection.find(queryObj);
                 res.send(searchedData)
