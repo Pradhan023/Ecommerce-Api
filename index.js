@@ -6,9 +6,17 @@ const cors = require('cors')
 const connection = require("./config/config")
 const route = require("./RouteComp/routeComp")
 
-app.use(cors({
-    origin:"*",
-}))
+// app.use(cors({
+//     origin:"*",
+// }))
+
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
+    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+  });
+  
 
 app.use(express.json())
 
