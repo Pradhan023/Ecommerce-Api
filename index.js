@@ -6,9 +6,7 @@ const cors = require('cors')
 const connection = require("./config/config")
 const route = require("./RouteComp/routeComp")
 
-app.use(cors({
-    origin:"http://localhost:5173",
-}))
+app.use(cors())
 
 app.use(express.json())
 
