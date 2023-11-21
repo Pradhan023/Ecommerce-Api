@@ -1,4 +1,4 @@
-
+require("dotenv").config()
 
 const express = require("express")
 const app = express()
@@ -15,7 +15,7 @@ app.use(express.json())
 
 app.use("/api",route)
 
-const Port = 4000;
+const Port = process.env.Port || 3000;
 
 
 app.listen(Port, async()=>{
