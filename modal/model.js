@@ -34,6 +34,13 @@
             }
         })
 
+        const addtocartSchema =mongoose.Schema({
+            id:Number,
+            img:String,
+            heading:String,
+            price:Number
+        }) 
+
         const registerSchema =mongoose.Schema({
             username:{
                 type:String,
@@ -50,5 +57,6 @@
         })
 
         const productCollection = mongoose.model("ProductData",userSchema)
+        const cartCollection = mongoose.model("ADDTOCART",addtocartSchema)
         const AuthenticationCollection = mongoose.model("RegisterData",registerSchema)
-        module.exports={productCollection,AuthenticationCollection}
+        module.exports={productCollection,AuthenticationCollection,cartCollection}
