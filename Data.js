@@ -606,7 +606,7 @@ const StoreData = [
         heading : "BAJAJ New Shakti 3HD HA Handi with IB PCX 63 HD 3 L Induction Bottom Pressure Cooker  (Hard Anodized)",
         price : 1249,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware",
+        subcategory:"Kitchen Cookware Serveware",
         quantity:1
     },
     {
@@ -616,7 +616,7 @@ const StoreData = [
         heading : "Prestige Omega Festival Pack Induction Bottom Non-Stick Coated Cookware",
         price : 1299,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware",
+        subcategory:"Kitchen Cookware Serveware",
         quantity:1
     },
     {
@@ -626,7 +626,7 @@ const StoreData = [
         heading : "cello Prima + Non-Stick Aluminium Induction Bottom Non-Stick Coated Cookware",
         price : 1369,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware",
+        subcategory:"Kitchen Cookware Serveware",
         quantity:1
     },
     {
@@ -636,7 +636,7 @@ const StoreData = [
         heading : "PARAM newland Copper Bottom Handi Pot 5 Piece Set",
         price : 450,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware",
+        subcategory:"Kitchen Cookware Serveware",
         quantity:1
     },
     {
@@ -646,7 +646,7 @@ const StoreData = [
         heading : "Hawkins Stainless Steel (SSTV24) Tawa 24 cm diameter  (Triply, Induction Bottom)",
         price : 1133,
         category : "Furniture",
-        subcategory:"Kitchen,Cookware & Serveware",
+        subcategory:"Kitchen Cookware Serveware",
         quantity:1
     },
     {
