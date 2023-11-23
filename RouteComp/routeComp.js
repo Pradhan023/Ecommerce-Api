@@ -40,7 +40,7 @@ route.post("/out/create-checkout-session",async(req,res)=>{
         payment_method_types:["card"],
          line_items:PurchaseItem,
         mode:"payment",
-        success_url:`http://localhost:${port}/sucess`,
+        success_url:"https://enchanting-mousse-1516bd.netlify.app/",
         cancel_url:`http://localhost:${port}/cancel`,
 
 
